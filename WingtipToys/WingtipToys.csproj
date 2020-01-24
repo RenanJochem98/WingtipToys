@@ -113,7 +113,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
-    <Content Include="addToCart.aspx" />
+    <Content Include="AddToCart.aspx" />
     <Content Include="App_Data\wingtiptoys.mdf" />
     <Content Include="App_Data\wingtiptoys_log.ldf">
       <DependentUpon>wingtiptoys.mdf</DependentUpon>
@@ -218,12 +218,12 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="addToCart.aspx.cs">
-      <DependentUpon>addToCart.aspx</DependentUpon>
+    <Compile Include="AddToCart.aspx.cs">
+      <DependentUpon>AddToCart.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="addToCart.aspx.designer.cs">
-      <DependentUpon>addToCart.aspx</DependentUpon>
+    <Compile Include="AddToCart.aspx.designer.cs">
+      <DependentUpon>AddToCart.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
